@@ -1,0 +1,6 @@
+Re Tag a docker image:
+     docker tag my_ubuntu  chhatarshal/csingh:csingh_dev
+
+Push a docker image to repository:
+	docker push chhatarshal/csingh:csingh_dev
+
