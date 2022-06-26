@@ -1,0 +1,15 @@
+1. Create a container: docker container run -it ubuntu /bin/bash
+
+it will start a container and open bash terminal
+now install some software like git 
+
+
+
+2. Export image of container: docker export container_id > utuntu_git
+
+3. Import container:   docker import c:/users/csingh/utuntu_git my_ubuntu
+
+4. Run container from imported image :
+docker container run -it my_ubuntu /bin/bash
+ 
+ Now you can verify software you installed previously already present 
